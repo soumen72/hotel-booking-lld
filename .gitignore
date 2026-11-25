@@ -1,0 +1,128 @@
+# =========================================================================
+# .gitignore for Hotel Booking (Spring Boot / Maven / Java)
+# Path: /Users/soumenmondal/projects/lld/lld
+# =========================================================================
+
+### Maven Build Outputs & Artifacts ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Ensure maven wrapper jar is not blocked if committed, or ignore build outputs in src
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Visual Studio Code ###
+.vscode/
+*.code-workspace
+.history/
+.ionide/
+
+### Eclipse & Spring Tool Suite (STS) ###
+.apt_generated
+.apt_generated_tests
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbproject/load-into-image.nce
+
+### Log Files & Runtime Artifacts ###
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+### JVM Crash Dumps & Profiling ###
+hs_err_pid*
+replay_pid*
+*.hprof
+core.*
+
+### Secrets, Environment & Local Configuration ###
+.env
+.env.*
+*.local
+*.override
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+*.key
+*.pem
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+### Node / JavaScript (Postman scripts, tooling) ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+### Testing & Code Coverage ###
+.nyc_output/
+coverage/
+*.lcov
+.jacoco/
+jacoco.exec
+.sonar/
+sonar/
+
+### Temporary & Backup Files ###
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+### OS Generated Files ###
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r\r
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
